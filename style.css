@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background: linear-gradient(#33ccff 0%, #66ffcc 100%);
+    background-repeat: no repeat;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    float: right;
+    top: 10px;
+    right: 30px;
+    z-index: 10 cursor: pointer;
+    color: black;
+}
+
+#section1 {
+    background: linear-gradient(##cc00ff 0%, #ff0066 100%);
+    background-repeat: repeat;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Stick', sans-serif;
+}
+
+.links:hover {
+    background-color: floralwhite
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
